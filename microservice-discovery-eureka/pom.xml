@@ -9,21 +9,15 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>microservice-simple-consumer-movid</artifactId>
+    <artifactId>microservice-discovery-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microservice-simple-consumer-movid</name>
-    <description>电影微服务</description>
+    <name>microservice-discovery-eureka</name>
+    <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
@@ -32,14 +26,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
             </plugin>
         </plugins>
     </build>

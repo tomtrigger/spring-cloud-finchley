@@ -11,3 +11,14 @@ logging:
     org.hibernate: info
     org.hibernate.tye.descriptor.sql.BasicBinder: trace
     org.hibernate.tye.descriptor.sql.BasicExtrator: trace
+
+management:
+  endpoint:
+    health:
+      # 是否展示健康检查详情
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        # 暴露metrics端点，如暴露多个，用，分隔；如暴露所有端点，用'*'
+        include: metrics

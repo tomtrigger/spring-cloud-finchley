@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class MicroserviceSimpleConsumerMovidApplication {
+public class SimpleConsumerMovidApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroserviceSimpleConsumerMovidApplication.class, args);
+        SpringApplication.run(SimpleConsumerMovidApplication.class, args);
     }
 
     @Bean

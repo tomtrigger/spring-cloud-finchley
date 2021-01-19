@@ -24,3 +24,13 @@ microservice-simple-provider-user/.idea/
 microservice-simple-consumer-movid/target/
 
 microservice-simple-provider-user/target/
+
+microservice-consumer-movie/target/
+
+microservice-discovery-eureka/target/
+
+microservice-discovery-eureka-ha/target/
+
+microservice-provider-user/target/
+
+*.iml
