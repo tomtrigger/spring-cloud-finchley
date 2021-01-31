@@ -34,3 +34,13 @@ microservice-discovery-eureka-ha/target/
 microservice-provider-user/target/
 
 *.iml
+
+microservice-consumer-movie-feign/target/
+
+microservice-consumer-movie-ribbon/target/
+
+microservice-consumer-movie-ribbon-config-globa/target/
+
+microservice-consumer-movie-ribbon-config-java/target/
+
+microservice-consumer-movie-ribbon-config-properties/target/
